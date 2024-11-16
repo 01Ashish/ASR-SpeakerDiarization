@@ -40,16 +40,13 @@ cd your-repo-name    ```
 bash
 Copy code
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`    ```
+source venv/bin/activate    ```
 
 3. Install dependencies:
-```
-bash
-Copy code
-pip install -r requirements.txt ```
+`pip install -r requirements.txt `
 Note: Make sure to have all the dependencies specified in `requirements.txt`.
+Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
 
-4. Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
 
 ## Usage
 ### Running the Flask App
