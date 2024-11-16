@@ -33,7 +33,7 @@ Ensure you have the following installed:
 cd your-repo-name`
 
 2. Create and activate a virtual environment:
-`python3 -m venv venv
+`python3 -m venv venv /n
 source venv/bin/activate`
 
 3. Install dependencies:
