@@ -58,25 +58,22 @@ The app will be accessible at `http://127.0.0.1:5000`.
 
 ### Using the API
 1. Transcribe Audio
-Endpoint: /transcribe
-Method: POST
-Description: Uploads an audio file for transcription and diarization.
+- **Endpoint**: `/transcribe`
+- **Method**: `POST`
+- **Description**: Uploads an audio file for transcription and diarization.
 
-Example Request:
-
-bash
-Copy code
+**Example Request** (using cURL):
+```bash
 curl -X POST -F "audio=@path/to/your/audiofile.mp3" http://127.0.0.1:5000/transcribe
-Example Response:
-
-json
-Copy code
+```
+**Example Response**:
+```json
 {
     "transcript": "Speaker 1: Hello world. Speaker 2: Welcome to the ASR system."
 }
-Project Structure
-php
-Copy code
+```
+## Project Structure
+```plain text
 ├── app.py                      # Main Flask application
 ├── diarize.py                  # Diarization utility functions and configurations
 ├── templates
@@ -84,6 +81,7 @@ Copy code
 ├── static                      # Static files (if any)
 ├── requirements.txt            # Project dependencies
 └── README.md                   # This README file
+```
 Configuration
 Model Configuration: Modify create_config() function in diarize.py to change model parameters for speaker diarization.
 Punctuation Restoration: The model used for punctuation restoration can be adjusted in transcribe().
