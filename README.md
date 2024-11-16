@@ -82,12 +82,13 @@ curl -X POST -F "audio=@path/to/your/audiofile.mp3" http://127.0.0.1:5000/transc
 ├── requirements.txt            # Project dependencies
 └── README.md                   # This README file
 ```
-Configuration
-Model Configuration: Modify create_config() function in diarize.py to change model parameters for speaker diarization.
-Punctuation Restoration: The model used for punctuation restoration can be adjusted in transcribe().
-Contributing
+## Configuration
+**Model Configuration**: Modify `create_config()` function in `diarize.py` to change model parameters for speaker diarization.
+**Punctuation Restoration**: The model used for punctuation restoration can be adjusted in `transcribe()`.
+
+## Contributing
 Contributions are welcome! Please open issues or submit pull requests with improvements, bug fixes, or suggestions.
 
-License
+## License
 This project is licensed under the MIT License.
 
