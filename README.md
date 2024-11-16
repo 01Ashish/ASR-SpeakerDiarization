@@ -33,11 +33,11 @@ Ensure you have the following installed:
 `cd your-repo-name`
 
 2. Create and activate a virtual environment:
-`python3 -m venv venv `
-`source venv/bin/activate`
+```python3 -m venv venv 
+   source venv/bin/activate
 
 3. Install dependencies:
-`pip install -r requirements.txt `
+``` pip install -r requirements.txt
 Note: Make sure to have all the dependencies specified in `requirements.txt`.
 Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
 
