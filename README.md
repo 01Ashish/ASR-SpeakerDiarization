@@ -3,11 +3,11 @@
 This repository provides a Flask-based application for Automatic Speech Recognition (ASR) with speaker diarization, using deep learning models for accurate transcription and speaker identification. The solution is designed to process audio files, separate speakers, and output transcripts with punctuation restoration.
 
 ## Features
-- Transcription: Transcribes audio files to text using a Whisper model.
-- Speaker Diarization: Separates audio by speakers using NVIDIA's NeMo models.
-- Punctuation Restoration: Adds punctuation to the transcripts for improved readability.
-- Flask API: Provides a REST API for uploading and transcribing audio files.
-- Multilingual Support: Capable of transcribing multiple languages.
+- **Transcription**: Transcribes audio files to text using a Whisper model.
+- **Speaker Diarization**: Separates audio by speakers using NVIDIA's NeMo models.
+- **Punctuation Restoration**: Adds punctuation to the transcripts for improved readability.
+- **Flask API**: Provides a REST API for uploading and transcribing audio files.
+- **Multilingual Support**: Capable of transcribing multiple languages.
 
   
 ## Table of Contents
@@ -15,49 +15,52 @@ This repository provides a Flask-based application for Automatic Speech Recognit
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Endpoints](#endpoints)
-- [Configuration](
-- [Contributing]
-- [License]
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
-Prerequisites
+### Prerequisites
 Ensure you have the following installed:
 
-Python 3.7 or higher
-PyTorch (compatible version for your system)
-CUDA (for GPU support, optional)
-Setup
-Clone this repository:
+- Python 3.7 or higher
+- PyTorch (compatible version for your system)
+- CUDA (for GPU support, optional)
 
+### Setup
+1. Clone this repository:
+```
 bash
 Copy code
 git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Create and activate a virtual environment:
+cd your-repo-name    ```
 
+2. Create and activate a virtual environment:
+```
 bash
 Copy code
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install dependencies:
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`    ```
 
+3. Install dependencies:
+```
 bash
 Copy code
-pip install -r requirements.txt
-Note: Make sure to have all the dependencies specified in requirements.txt.
+pip install -r requirements.txt ```
+Note: Make sure to have all the dependencies specified in `requirements.txt`.
 
-Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
+4. Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
 
-Usage
-Running the Flask App
+## Usage
+### Running the Flask App
 To start the application, run:
-
+```
 bash
 Copy code
-python app.py
-The app will be accessible at http://127.0.0.1:5000.
+python app.py  ```
+The app will be accessible at ` http://127.0.0.1:5000`.
 
-Using the API
+### Using the API
 1. Transcribe Audio
 Endpoint: /transcribe
 Method: POST
