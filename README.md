@@ -2,21 +2,24 @@
 
 This repository provides a Flask-based application for Automatic Speech Recognition (ASR) with speaker diarization, using deep learning models for accurate transcription and speaker identification. The solution is designed to process audio files, separate speakers, and output transcripts with punctuation restoration.
 
-Features
-Transcription: Transcribes audio files to text using a Whisper model.
-Speaker Diarization: Separates audio by speakers using NVIDIA's NeMo models.
-Punctuation Restoration: Adds punctuation to the transcripts for improved readability.
-Flask API: Provides a REST API for uploading and transcribing audio files.
-Multilingual Support: Capable of transcribing multiple languages.
-Table of Contents
-Installation
-Usage
-Project Structure
-Endpoints
-Configuration
-Contributing
-License
-Installation
+## Features
+- Transcription: Transcribes audio files to text using a Whisper model.
+- Speaker Diarization: Separates audio by speakers using NVIDIA's NeMo models.
+- Punctuation Restoration: Adds punctuation to the transcripts for improved readability.
+- Flask API: Provides a REST API for uploading and transcribing audio files.
+- Multilingual Support: Capable of transcribing multiple languages.
+
+  
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Endpoints](#endpoints)
+- [Configuration](
+- [Contributing]
+- [License]
+
+## Installation
 Prerequisites
 Ensure you have the following installed:
 
