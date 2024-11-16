@@ -29,15 +29,21 @@ Ensure you have the following installed:
 
 ### Setup
 1. Clone this repository:
-`git clone https://github.com/yourusername/your-repo-name.git`
-`cd your-repo-name`
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
 
 2. Create and activate a virtual environment:
-```python3 -m venv venv 
-   source venv/bin/activate
+```bash
+python3 -m venv venv 
+source venv/bin/activate
+```
 
 3. Install dependencies:
-``` pip install -r requirements.txt
+```bash
+ pip install -r requirements.txt
+```
 Note: Make sure to have all the dependencies specified in `requirements.txt`.
 Download any required pre-trained models (if applicable) or set up configuration files as per your requirements.
 
@@ -45,11 +51,10 @@ Download any required pre-trained models (if applicable) or set up configuration
 ## Usage
 ### Running the Flask App
 To start the application, run:
+```bash
+python app.py
 ```
-bash
-Copy code
-python app.py  ```
-The app will be accessible at ` http://127.0.0.1:5000`.
+The app will be accessible at `http://127.0.0.1:5000`.
 
 ### Using the API
 1. Transcribe Audio
